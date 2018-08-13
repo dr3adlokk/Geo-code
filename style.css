@@ -1,20 +1,27 @@
 html, body {
  height: 100%;
  margin: 0;
+ font-family: 'Merriweather', serif;
+ -webkit-text-fill-color: black
+ 
 }
 
 .jumbotron {
  margin: 0 auto;
  width: 100%;
  height: 100%;
- background-color: #006666;
+ background-color: black;
  color: #e6ffff;
  overflow:hidden;
  text-align: center;
-}
+ font-family: 'Merriweather', serif;
+ -webkit-text-fill-color: black
+} 
 
 .jumbotron form {
  margin: 20px;
+ font-family: 'Merriweather', serif;
+ -webkit-text-fill-color: black
 }
 
 .jumbotron h1 {
@@ -22,6 +29,7 @@ html, body {
  font-size: 30px;
  color: #DDCCEE;
  margin-top: 80px;
+ font-family: 'Merriweather', serif;
 }
 
 .jumbotron button {
@@ -29,6 +37,8 @@ html, body {
  height: 30px;
  background-color: steelblue;
  margin: 3px;
+ font-family: 'Merriweather', serif;
+ -webkit-text-fill-color: black
 }
 
 .jumbotron input {
@@ -38,8 +48,26 @@ html, body {
  margin: 2px;
  padding: 5px;
  transition: all 0.2s ease-in-out;
+ font-family: 'Merriweather', serif;
+ -webkit-text-fill-color: black
 }
 
 .output {
  display: inline-block;
+ 
+ font-family: 'Merriweather', serif;
+ 
+
+ text-align: center;
+ 
 }
+.jumbotron form action{
+ color: blue 
+}
+/* .file{
+ color: black;
+ font-family: 'Merriweather', serif;
+ -webkit-text-fill-color: black;
+ background-color: black;
+ text-align: center;
+} */

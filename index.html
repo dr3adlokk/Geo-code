@@ -7,6 +7,7 @@
  <title>GEO-CODE</title>
  <link rel="stylesheet" href="./style.css">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
 </head>
 <body>
@@ -14,13 +15,13 @@
    <h1> GEO-CODING SERVICE </h1>
      <h3>Upload a CSV file.The values containing addresses should be in a column named<strong><em> address </em></strong> or <strong><em>Address</em></strong></h3>
      <form action="{{url_for('success_table')}}" method="POST" enctype="multipart/form-data">
-      <input type="file" accept=".csv" name="file" />
+      <input class"file" type="file" accept=".csv" name="file" />
       <button type=""> Submit </button>
      </form>
 
    <div class="output">
-    {{text|safe}}
-    {% include btn ignore missing %}
+    <!-- {{text|safe}}
+    {% include btn ignore missing %} -->
    </div>  
  </div>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
